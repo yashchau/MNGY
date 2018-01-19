@@ -1,0 +1,60 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="left|top">
+
+    <!--WorldWindow Globe panel-->
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="470dp"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/globe_crosshairs1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:src="@drawable/crosshairs"
+        android:visibility="visible" />
+
+
+    <FrameLayout
+        android:id="@+id/globe"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/globe_crosshairs2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/crosshairs"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="470dp"
+            android:background="@color/colorAccent"
+            android:text="distance" />
+
+
+    </FrameLayout>
+</RelativeLayout>

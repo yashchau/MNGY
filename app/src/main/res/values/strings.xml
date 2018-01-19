@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MNG</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="app_id"></string>
+    <string name="action_distance">Distance</string>
+    <string name="action_ruler">Ruler</string>
+    <string name="action_protractor">Protractor</string>
+    <string name="spacer"></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
